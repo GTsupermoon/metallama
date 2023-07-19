@@ -1,4 +1,5 @@
 {
+  "_name_or_path": "meta-llama/Llama-2-7b-chat-hf",
   "architectures": [
     "LlamaForCausalLM"
   ],
@@ -8,6 +9,7 @@
   "hidden_size": 4096,
   "initializer_range": 0.02,
   "intermediate_size": 11008,
+  "max_length": 4096,
   "max_position_embeddings": 2048,
   "model_type": "llama",
   "num_attention_heads": 32,
@@ -19,7 +21,7 @@
   "rope_scaling": null,
   "tie_word_embeddings": false,
   "torch_dtype": "float16",
-  "transformers_version": "4.31.0.dev0",
+  "transformers_version": "4.32.0.dev0",
   "use_cache": true,
   "vocab_size": 32000
 }
