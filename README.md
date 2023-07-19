@@ -13,6 +13,7 @@ language:
 - en
 pipeline_tag: text-generation
 inference: false
+arxiv: 2307.09288
 tags:
 - facebook
 - meta
